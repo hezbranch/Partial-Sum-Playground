@@ -43,3 +43,11 @@ The output from .result integrates well with data analysis and plotting librarie
 
 ## Additional Info
 In the images above, we have an alternating series with non-increasing term magnitude and a limit that approaches zero, indicating convergence. This tool provides visual artifacts of convergence which can supplement tests such as the Alternating Series Test.
+
+For more information about mathematical analysis and convergence tests, see:
+
+https://en.wikipedia.org/wiki/Alternating_series_test
+
+Wikipedia contributors. (2022, January 24). Alternating series test. In Wikipedia, The Free Encyclopedia. Retrieved 03:33, February 17, 2022, from https://en.wikipedia.org/w/index.php?title=Alternating_series_test&oldid=1067674590
+
+
