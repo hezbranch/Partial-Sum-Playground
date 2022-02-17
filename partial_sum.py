@@ -67,6 +67,6 @@ class PartialSum:
         # Output location of result
         print("Final result available at .result or by calling 'print()' on PartialSum object.")
         print("To view the output of f(x) for each n as n approaches infinity, use .test to view the entire list.")
-        print("To view the nth partial sum (i.e. the limit if input is an infinite series), use .tail to view output.")
+        print("To view the nth partial sum (i.e. the limit if input is a convergent infinite series), use .tail to view output.")
         print("To observe if tail approaches zero, use .zero_tail (checks margin of 1e-7).")
            
