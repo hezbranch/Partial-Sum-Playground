@@ -11,6 +11,8 @@ Alternate Environment(s): Jupyter Notebooks, analysis programs, scripts, etc.
 
 Options: To run the calculation automatically, set the last parameter 'auto' to 'True'.
 
+> p = PartialSum(function, lower, upper, auto=True)
+
 # Example
 \>>> from partial_sum import PartialSum <br/>
 \>>> fx = lambda x : (-1)**x / (x)**0.5 <br/>
