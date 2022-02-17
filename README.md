@@ -3,9 +3,11 @@ Wed Feb 16 2022 <br/>
 Partial Sums
 
 # Partial Sum Playground
-Analyze a given series with useful calculations, including the nth partial sum
+Purpose: Analyze a given series with useful calculations, including the nth partial sum
 
-Assumes terminal/command line usage
+Usage: Designed for terminal/command line usage. 
+
+Alternate Environments: Jupyter Notebooks, analysis programs, scripts, etc.
 
 # Example
 \>>> from partial_sum import PartialSum <br/>
