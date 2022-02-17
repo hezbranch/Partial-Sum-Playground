@@ -19,3 +19,13 @@ To observe if tail approaches zero, use .zero_tail (checks margin of 1e-7). <br/
 5.000011249218367e-10 <br/>
 \>>> p.zero_tail <br/>
 True <br/>
+
+# Displaying graphs
+
+The output from .result integrates well with data analysis and plotting libraries such as pandas and matplotlib. 
+
+\>>> import pandas as pd <br/>
+\>>> import matplotlib.pyplot as plt <br/>
+\>>> pd.Series(p.result).plot.line(title="Partial Sums Distributed by N") <br/>
+<matplotlib.axes._subplots.AxesSubplot object at > <br/>
+\>>> plt.show() <br/>
