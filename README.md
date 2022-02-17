@@ -26,6 +26,14 @@ The output from .result integrates well with data analysis and plotting librarie
 
 \>>> import pandas as pd <br/>
 \>>> import matplotlib.pyplot as plt <br/>
-\>>> pd.Series(p.result).plot.line(title="Partial Sums Distributed by N") <br/>
+
+\>>> small_data = {i : p.test[i-1] for i in range(p.lower, 100)} <br/>
+\>>> pd.Series(small_data).plot.line(title="Terms of Series Distributed by N", xlim=(1, len(small_data))) <br/>
+<matplotlib.axes._subplots.AxesSubplot object at > <br/>
+\>>> plt.show() <br/>
+
+
+\>>> small_sum_data = {i : p.result[i-1] for i in range(1, 100)} <br/>
+\>>> pd.Series(small_sum_data).plot.line(title="Partial Sums Distributed by N", xlim=(1, len(small_sum_data))) <br/>
 <matplotlib.axes._subplots.AxesSubplot object at > <br/>
 \>>> plt.show() <br/>
