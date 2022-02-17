@@ -5,7 +5,7 @@ Partial Sums
 # Partial Sum Playground
 Purpose: Analyze a given series with useful calculations, including the nth partial sum
 
-Usage: Designed for terminal/command line usage. 
+Usage: Designed for terminal/command line usage. Clone, unzip, and launch a terminal from repo location.
 
 Alternate Environments: Jupyter Notebooks, analysis programs, scripts, etc.
 
