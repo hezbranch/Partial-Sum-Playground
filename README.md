@@ -32,8 +32,14 @@ The output from .result integrates well with data analysis and plotting librarie
 <matplotlib.axes._subplots.AxesSubplot object at > <br/>
 \>>> plt.show() <br/>
 
+![Sample visualization of series terms](https://github.com/hezbranch/DemoImages/blob/main/Figure_1.png)
 
 \>>> small_sum_data = {i : p.result[i-1] for i in range(1, 100)} <br/>
 \>>> pd.Series(small_sum_data).plot.line(title="Partial Sums Distributed by N", xlim=(1, len(small_sum_data))) <br/>
 <matplotlib.axes._subplots.AxesSubplot object at > <br/>
 \>>> plt.show() <br/>
+
+![Sample visualization of partial sums as n approaches infinity](https://github.com/hezbranch/DemoImages/blob/main/Figure_2.png)
+
+## Additional Info
+In the images above, we have an alternating series with non-increasing term magnitude and a limit that approaches zero, indicating convergence. This tool provides visual artifacts of convergence which can supplement tests such as the Alternating Series Test.
