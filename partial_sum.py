@@ -1,6 +1,5 @@
 # Calculate Partial Sums
 # Hezekiah Branch
-# Calculus 2
 # Feb 16, 2022
 
 class PartialSum:
