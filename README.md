@@ -41,7 +41,7 @@ The output from .result integrates well with data analysis and plotting librarie
 
 ![Sample visualization of partial sums as n approaches infinity](https://github.com/hezbranch/DemoImages/blob/main/Figure_2.png)
 
-## Additional Info
+# Additional Info
 In the images above, we have an alternating series with non-increasing term magnitude and a limit that approaches zero, indicating convergence. This tool provides visual artifacts of convergence which can supplement tests such as the Alternating Series Test.
 
 For more information about mathematical analysis and convergence tests, see:
