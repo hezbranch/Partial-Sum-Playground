@@ -2,7 +2,7 @@ Hezekiah Branch <br/>
 Wed Feb 16 2022 <br/>
 Partial Sums
 
-# Partial-Sum-Playground
+# Partial Sum Playground
 Analyze a given series with useful calculations, including the nth partial sum
 
 Assumes terminal/command line usage
