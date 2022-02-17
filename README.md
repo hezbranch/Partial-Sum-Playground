@@ -7,7 +7,7 @@ Purpose: Analyze a given series with useful calculations, including the nth part
 
 Usage: Designed for terminal/command line usage. Clone, unzip, and launch a terminal from repo location.
 
-Alternate Environments: Jupyter Notebooks, analysis programs, scripts, etc.
+Alternate Environment(s): Jupyter Notebooks, analysis programs, scripts, etc.
 
 # Example
 \>>> from partial_sum import PartialSum <br/>
